@@ -1,0 +1,6 @@
+spring:
+  rabbitmq:
+    host: 192.168.100.3   # IP do notebook com RabbitMQ
+    port: 5672
+    username: teste        # usuário novo criado
+    password: senha123
