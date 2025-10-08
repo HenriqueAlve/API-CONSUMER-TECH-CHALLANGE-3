@@ -1,6 +1,7 @@
+
 spring:
   rabbitmq:
-    host: ${SPRING_RABBITMQ_HOST:192.168.100.3}
-    port: ${SPRING_RABBITMQ_PORT:5672}
-    username: ${SPRING_RABBITMQ_USERNAME:guest}
-    password: ${SPRING_RABBITMQ_PASSWORD:guest}
+    host: 192.168.100.3   # IP do notebook com RabbitMQ
+    port: 5672
+    username: teste        # usuário novo criado
+    password: senha123
