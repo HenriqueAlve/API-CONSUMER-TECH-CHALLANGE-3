@@ -27,9 +27,8 @@ public class ConsultaConsumer {
     public void processarMensagem(String mensagem) throws Exception {
         CreateConsultaRecordDTO consulta = objectMapper.readValue(mensagem, CreateConsultaRecordDTO.class);
 
-
         mailService.enviarEmailConsulta(
-                "teste@gmail.com",
+                "teste@gmail.com", // coloque seu email.
                 consulta.descricao(),
                 consulta.dataHora().toString(),
                 consulta.pacienteId()

@@ -10,8 +10,9 @@
 	</parent>
 	<groupId>dev.ha.gestao.hospitalar</groupId>
 	<artifactId>gestao-hospitalar</artifactId>
+	<version>1.0.0</version>
 	<name>gestao-hospitalar</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Sistema de gestão hospitalar com RabbitMQ e notificações por email</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -27,6 +28,8 @@
 	</scm>
 	<properties>
 		<java.version>21</java.version>
+		<maven.compiler.source>21</maven.compiler.source>
+		<maven.compiler.target>21</maven.compiler.target>
 	</properties>
 	<dependencies>
 		<dependency>

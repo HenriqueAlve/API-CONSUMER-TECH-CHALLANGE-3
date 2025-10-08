@@ -17,7 +17,7 @@ public class MailConfig {
         mailSender.setPort(587);
 
         mailSender.setUsername("teste@gmail.com");
-        mailSender.setPassword("veds zmxb uvvy pexa\n"); // atenção: senha ou app password
+        mailSender.setPassword("veds zmxb uvvy pexa\n"); // atenção: senha ou app password do gmail smtp
 
         Properties props = mailSender.getJavaMailProperties();
         props.put("mail.transport.protocol", "smtp");
